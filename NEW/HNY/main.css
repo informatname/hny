@@ -1,0 +1,104 @@
+@font-face {
+    font-family: HnyFont; /* ָלÿ רנטפעא */
+    src: url("zanes.ttf"); /* ֿףעü ך פאיכף סמ רנטפעמל */
+  }
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	margin: 0;
+	padding: 10px;
+	background: rgba(100, 100, 100, 0.5);
+	text-align: center;
+	z-index: 5;
+	font-family: Arial;
+}
+
+body{
+  overflow: hidden;
+  background-position: 70% 50%;
+  height: 100%;
+  width: 100%;
+  background: rgba(100, 100, 000, 0.5);
+  background-image: url("bg04.jpg");
+     margin: 0;
+     padding: 0;
+     color: white;
+     z-index: -10;
+     cursor: none;
+     position:fixed; 
+}
+
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	z-index: 4;
+}
+
+div#ShowPict{
+   display:flex;
+   flex-flow: column;
+   justify-content: center;
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    z-index: 9999;
+    background: url('fone.jpg');
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+div#HelpScreen{
+   display:flex;
+   flex-flow: column;
+   justify-content: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   z-index: 9999;
+   background: url('helpfone.jpg') 100% 100% no-repeat;
+   background-size: cover;
+   cursor: pointer;
+   color: orange;
+   vertical-align: middle;
+   text-align: center;
+}
+
+div#DivInHelp{
+   background: rgba(250, 250, 250, 0.4); 
+   cursor: help;
+   color: #BB3300;
+   font-family: HnyFont, Tahoma ;
+   text-align: left;
+   font-size: 20pt;
+   border: solid 1px orange;
+
+   padding: 20px;
+   margin: 0 auto;
+}
+
+
+iframe{
+  border: solid 1px green;
+  background:  rgba(10, 200, 10, 0.7) url('images/loading.gif') 50% 50% no-repeat;
+   padding: 20px;
+   margin: 0 auto;
+
+}
+
+
+
